@@ -1,0 +1,256 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+ 
+ @import "_inc";
+ @import "_typography";
+
+.ie {
+   .site-name {
+    margin-top: 0;
+
+    a {
+      @include hide-text;
+      background: url('../images/logo.png') no-repeat 0 0;
+      width: 285px;
+      height: 175px;
+      display: block;
+      position: absolute;
+      z-index: 999;
+      top: 30px;
+    }
+  }
+  
+  
+/* -- Nav -- */
+  nav {
+    margin-top: 20px;
+    ul, ul.inline {
+      li {
+        border: none;
+        padding: 0 11px;
+        display: inline;
+        width: auto;
+        margin: 0;
+        a, a.active {
+          font-family: $body-font;
+          font-size: 13px;
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-style: normal !important;
+        }
+      }
+      li.last {
+	      margin-top: -20px !important;
+      }
+    }
+  }
+  a.menu-link {
+    display: none;
+  }
+
+  /* -- Footer Section -- */
+  footer {
+    background: #343434;
+//     height: 245px;
+  }
+  .footer-block {
+    float: left;
+    width: 31%;
+    margin: 20px 0;
+    padding: 0 1%;
+    h2 {
+      font-size: 13px;
+      line-height: 19px;
+      padding-bottom: 30px;
+      height: 30px;
+    } 
+    .content {
+      text-align: left;
+    }
+  }
+  .footer-block.l, .footer-block.c, .footer-block.r {
+    h2 {
+      padding-left: 79px;
+      display: block;
+      text-align: left;
+    }
+  }
+    .footer-block.l {
+    h2 {
+      background: url('../images/contact.png') no-repeat 0 0;
+    }
+  }
+  .footer-block.c {
+    h2 {
+      background: url('../images/job.png') no-repeat 0 0;
+    }
+  }
+  .footer-block.r {
+    h2 {
+      background: url('../images/flag.png') no-repeat 0 0;
+    }
+  }
+
+
+
+  /* -- Home Slider -- */
+  .zone-slider {
+    z-index: -1000;
+    position: relative;
+  }
+  .slider-content-wrap {
+    width: 980px;
+    margin: 0 auto;
+  }
+  
+      .blockHeadline.rsABlock {
+    top: 215px;
+    background: #fff;
+    font-family: $heading-font;
+    font-weight: 700;
+    color: $heading-blue;
+    font-size: 28px;
+    padding: 10px 15px; 
+    right: 0;
+    left:auto;
+    text-transform: uppercase;
+  }
+  
+  .blockSubHeadline.rsABlock {
+    top: 270px;
+    background: #fff;
+    font-family: $heading-font;
+    color: $heading-blue;
+    font-size: 20px;
+    padding: 10px 15px; 
+    right: 0;
+    left:auto;
+    font-style: italic;
+  }
+  
+  
+  /*-- Front Services -- */
+  
+  .front-services {
+    h2, h2 > a, span > a {
+      font-size: 20px;
+      padding: 0 0 10px;
+      /*filter: dropshadow(color=#555, offx=1, offy=1);
+      filter: glow(color=black,strength=5), alpha(opacity=70);*/
+      /*filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=45);*/
+      filter: Shadow(Color=black, Direction=130, Strength=1);
+
+    } 
+    .span-wrap {
+      position: absolute;
+      padding: 0 0px 20px;
+      width: 27px;
+      margin: -24px 0 0px;
+      display: block;
+    }
+    span {
+      background: url('../images/f-services.png') repeat;
+      padding: 0px 10px 268px 10px;
+      position: relative;
+      margin: 0px 10px 0  -130px;
+      border: 1px solid #fff;
+      display: block;
+      width: 240px;
+    }
+    .views-row {
+      float: left;
+      width: 31%;
+      margin: 40px 10px 0;
+      height: auto;
+      overflow: visible;
+      img {
+        margin-top: -70px;
+      }
+    }  
+  }
+
+  
+  /* -- One Col for iPad and Mobile - Two Col for desktop -- */
+  .view-mode-careers, .view-mode-our_story, .view-mode-products_and_services, .node-locations.view-mode-full {
+    .group-left, .group-right {
+      margin-top: 30px;
+      width: 45%;
+    }  
+    .group-footer {
+      width: 100%;
+    }
+  }
+  
+  /* -- Locations 2 col iPad and Mobile - 3 col Desktop -- */
+  .locations {
+    .views-row {
+      float: left;
+      width: 28%;
+      margin-right: 7%;
+    }
+    .views-row-3, .views-row-6, .views-row-9 {
+      margin-right: 0;
+    }
+  }
+
+/* -- Products and Services -- */
+.services-landing {
+  .views-row {
+    margin: 0px 15px 30px;
+    width: 46%;
+    float: left;
+  }
+  .views-row-1, .views-row-3, .views-row-5, .views-row-7 {
+    margin-left: 0;
+  }
+}
+
+/* -- Blog Article -- */
+.node-blog-article {
+  .blog-thumb {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+  }
+    .blog-read-more-teaser, .blog-content-teaser {
+    overflow: hidden;
+  }
+}
+
+/* -- Staff -- */
+
+  .location-staff, .services-sales, .admin-corporate-staff {
+    .views-row {
+      margin: 20px 0;
+      float: left;
+      width: 100%;
+    }
+    .staff {
+        img {
+          float: left;
+          margin-right: 20px;
+        }
+      .staff-details {
+        overflow: hidden;
+      }
+    }
+  }
+  .location-name {
+    margin-bottom: 10px;
+  }
+  .staff-details {
+    float: none;
+    margin: 0;
+    h3 {
+      padding-left: 15px;
+      border-left: 4px solid $blue;
+      margin-bottom: 10px;
+    }
+  }
+
+
+}
+

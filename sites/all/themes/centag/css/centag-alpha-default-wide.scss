@@ -1,0 +1,51 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+@import "_inc";
+@import "_typography";
+  
+/* -- Home Slider -- */
+.slider-content-wrap {
+  width: 1200px;
+}
+
+ /* -- Nav -- */
+  nav {
+    ul, ul.inline {
+      li {
+        padding: 0 15px;
+        a, a.active {
+          font-size: 18px;
+        }
+      }
+      .last {
+	      padding: 20px 10px 15px !important;
+      }
+    }
+  }
+  
+/* -- Front -- */
+.front-services {
+  span {
+    padding: 0px 46% 345px;
+  }
+  .span-wrap {
+    width: 366px;
+  }
+}
+
+
+ /* -- Products and Services -- */
+  
+  .services-landing {
+    .views-row {
+      height: 220px;
+    }
+  }
+  
+  
+  div.industry-logos {
+	  span {
+		  width: 32%;
+		  text-align: center;
+	  }
+  }

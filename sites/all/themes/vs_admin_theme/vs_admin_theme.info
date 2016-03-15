@@ -1,0 +1,7 @@
+name = Variant Studios Admin Theme
+description = A theme base on the Shiny admin theme
+core = 7.x
+
+base theme = shiny
+
+stylesheets[all][] = assets/css/vs.css

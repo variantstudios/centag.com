@@ -1,0 +1,39 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+/*-- Colors --*/
+/* -- Mixins -- */
+/* -- This include holds all typography styles to be used on the site -- */
+/* -- Fonts -- */
+/* -- Font Colors -- */
+/* -- Heading Reset -- */
+/* -- Body Text -- */
+/* -- Links -- */
+/* -- Navigation Link -- */
+/*-- Read More --*/
+/* -- Label -- */
+/* -- Sidebar Menu -- */
+/* -- Footer Block -- */
+/* -- MISC -- */
+/* -- Home Slider -- */
+/* line 7, centag-alpha-default-wide.scss */
+.slider-content-wrap { width: 1200px; }
+
+/* -- Nav -- */
+/* line 14, centag-alpha-default-wide.scss */
+nav ul li, nav ul.inline li { padding: 0 15px; }
+/* line 16, centag-alpha-default-wide.scss */
+nav ul li a, nav ul li a.active, nav ul.inline li a, nav ul.inline li a.active { font-size: 18px; }
+/* line 20, centag-alpha-default-wide.scss */
+nav ul .last, nav ul.inline .last { padding: 20px 10px 15px !important; }
+
+/* -- Front -- */
+/* line 28, centag-alpha-default-wide.scss */
+.front-services span { padding: 0px 46% 345px; }
+/* line 31, centag-alpha-default-wide.scss */
+.front-services .span-wrap { width: 366px; }
+
+/* -- Products and Services -- */
+/* line 40, centag-alpha-default-wide.scss */
+.services-landing .views-row { height: 220px; }
+
+/* line 47, centag-alpha-default-wide.scss */
+div.industry-logos span { width: 32%; text-align: center; }

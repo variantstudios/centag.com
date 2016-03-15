@@ -1,0 +1,283 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+ 
+ @import "_inc";
+ @import "_form";
+@import "_typography";
+
+/* -- Sidebar Menus -- */
+
+  .sidebar-menu {
+    margin-top: 0px;
+  }
+
+/* -- Footer Section -- */
+
+  footer {
+    background: #343434;
+    height: 300px;
+  }
+  .footer-block {
+    float: left;
+    width: 31%;
+    margin: 20px 0;
+    padding: 0 1%;
+    h2 {
+      font-size: 12px;
+      line-height: 19px;
+      padding-bottom: 30px;
+      height: 30px;
+    } 
+    .content {
+      text-align: left;
+    }
+  }
+  .footer-block.l, .footer-block.c, .footer-block.r {
+    h2 {
+      padding-left: 79px;
+      display: block;
+      text-align: left;
+    }
+  }
+    .footer-block.l {
+    h2 {
+      background: url('../images/contact.png') no-repeat 0 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  .footer-block.c {
+    h2 {
+      background: url('../images/job.png') no-repeat 0 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  .footer-block.r {
+    h2 {
+      background: url('../images/flag.png') no-repeat 0 0;
+      padding-top: 5px;
+      padding-bottom: 25px;
+    }
+  }
+  
+  .footer-info {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #454648;
+    padding: 10px 0 0;
+    .copyright {
+      float: left;
+      p {
+        color: #fff;
+        font-size: 12px;
+      }
+    }
+    .site-by {
+      float: right;
+      color: #fff;
+      font-size: 12px;
+      p, a {
+        color: #fff;
+        font-size: 12px;
+      }
+    }
+  }
+/* -- Home Slider -- */
+
+  .slider-content-wrap {
+    width: 720px;
+    margin: 0 auto;
+  }
+  
+  
+/* -- Front -- */
+  
+  .home-calls {
+    margin: 20px 0 5px;
+  }
+  
+  .front-services {
+    h2, h2 > a, span > a {
+      font-size: 20px;
+      padding: 0 0 10px;
+    } 
+    .span-wrap {
+      position: absolute;
+      padding: 0 0px 60px;
+      width: 209px;
+      margin: -26px 0 0px;
+      display: block;
+      border-bottom: 0;
+    }
+    span {
+      background-color: rgba(255, 255, 255, .2);
+      padding: 0px 47% 191px;
+      position: relative;
+      margin: 0px 6px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .views-row {
+      width: 30%;
+      float: left;
+      margin: 30px 10px 0;
+      height: auto;
+      overflow: visible;
+      img {
+        margin-top: -67px;
+      }
+    }  
+  }
+
+
+    .blockHeadline.rsABlock {
+    top: 215px;
+    background: #fff;
+    font-family: $heading-font;
+    font-weight: 700;
+    color: $heading-blue;
+    font-size: 28px;
+    padding: 10px 15px; 
+    right: 0;
+    left:auto;
+    text-transform: uppercase;
+  }
+  
+  .blockSubHeadline.rsABlock {
+    top: 270px;
+    background: #fff;
+    font-family: $heading-font;
+    color: $heading-blue;
+    font-size: 20px;
+    padding: 10px 15px; 
+    right: 0;
+    left:auto;
+    font-style: italic;
+  }
+  
+
+/* -- Blog Article -- */
+
+.node-blog-article {
+  .blog-thumb {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+  }
+}
+
+/* -- Products and Services -- */
+
+  .services-landing {
+    float: left;
+    margin-bottom: 20px;
+    .views-row {
+      margin: 0px 0 30px;
+      width: 100%;
+      float: left;
+    }
+    .views-row-1, .views-row-3, .views-row-5, .views-row-7 {
+      margin-left: 0;
+    }
+  }
+
+  .proprietary-blends {
+    margin-bottom: 40px;
+  }
+
+ 
+ 
+/* -- Locations -- */ 
+  .locations {
+    .views-row-odd {
+      float: left;
+      width: 30%;
+      margin: 0;
+      padding: 0 10%;
+      border-right: 1px solid #cdcdcd;
+      margin-bottom: 20px;
+    }
+    .views-row-even {
+      float: left;
+      width: 30%;
+      margin-right: 0;
+      padding-left: 15%;
+      border-right: none;
+      margin-bottom: 20px;
+    }
+    .location-more-info {
+      a {
+        background: url("../images/sprite.png") no-repeat -224px -2px;
+        display: block;
+        height: 32px;
+        padding: 4px 0 0 25px;
+        margin: 5px 0;
+        font-style: italic; 
+      }
+    }
+  }
+
+
+/* -- Staff -- */
+
+  .location-staff, .services-sales, .admin-corporate-staff {
+    .views-row {
+      margin: 20px 0;
+      float: left;
+      width: 100%;
+    }
+    .staff {
+        img {
+          float: left;
+          margin-right: 20px;
+        }
+      .staff-details {
+        overflow: hidden;
+      }
+    }
+  }
+  .location-name {
+    margin-bottom: 10px;
+  }
+  .staff-details {
+    float: none;
+    margin: 0;
+    h3 {
+      padding-left: 15px;
+      border-left: 4px solid $blue;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+  /* -- Jobs -- */
+  .node-job-post {
+    .job-post-details {
+      float: left;
+      width: 50%;
+      margin: 10px 0 0;
+    }
+  }
+  
+  
+/* -- Forms -- */
+.webform-client-form {
+  input {
+    width: 100%;
+  }
+}
+
+
+
+
+/* ------ TYPOGRAPHY STYLES ------ */
+/* -- Front -- */
+  .front-services {
+    h2 a {
+      border-bottom: 1px solid #fff;
+      padding-bottom: 10px;
+    }
+  }
+  

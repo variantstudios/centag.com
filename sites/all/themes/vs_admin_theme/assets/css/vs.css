@@ -1,0 +1,18 @@
+/* VS Logo on White */
+#credit .logo a {
+  background: transparent url("../images/vs-logo_black.png") no-repeat 0 0;
+}
+/* VS Logo on Blue */
+body.in-maintenance #credit .logo a {
+  background: transparent url("../images/vs-logo_black.png") no-repeat 0 0;
+}
+/* VS Logo on Black */
+#overlay #overlay-content #credit .logo a {
+  background: transparent url("../images/vs-logo_white.png") no-repeat 0 0;
+}
+
+/* FIX THE ADMIN MENU HORIZONTAL SCROLL BAR ISSUE */
+#admin-menu {
+    margin: 0;
+}
+

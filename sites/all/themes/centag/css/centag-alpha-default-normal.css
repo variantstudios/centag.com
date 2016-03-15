@@ -1,0 +1,85 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also apply to the widescreen layout unless they are overridden by the widescreen styles. */
+/* -- 960 & IE Styles -- */
+/*-- Colors --*/
+/* -- Mixins -- */
+/* -- This include holds all typography styles to be used on the site -- */
+/* -- Fonts -- */
+/* -- Font Colors -- */
+/* -- Heading Reset -- */
+/* -- Body Text -- */
+/* -- Links -- */
+/* -- Navigation Link -- */
+/*-- Read More --*/
+/* -- Label -- */
+/* -- Sidebar Menu -- */
+/* -- Footer Block -- */
+/* -- MISC -- */
+/* -- Front -- */
+/* line 12, centag-alpha-default-normal.scss */
+.front-services .span-wrap { position: absolute; padding: 0 0px 60px; width: 287px; margin: -26px 0 0px; display: block; }
+/* line 19, centag-alpha-default-normal.scss */
+.front-services span { background-color: rgba(255, 255, 255, 0.2); padding: 0px 47% 268px; position: relative; margin: 0px 10px; border: 1px solid rgba(255, 255, 255, 0.5); }
+/* line 26, centag-alpha-default-normal.scss */
+.front-services .views-row { float: left; width: 31%; margin: 40px 10px 0; }
+/* line 30, centag-alpha-default-normal.scss */
+.front-services .views-row img { margin-top: -70px; }
+
+/* -- Blog Article -- */
+/* line 38, centag-alpha-default-normal.scss */
+.node-blog-article .blog-thumb { width: 300px; margin-right: 20px; }
+/* line 42, centag-alpha-default-normal.scss */
+.node-blog-article .blog-read-more-teaser, .node-blog-article .blog-content-teaser { overflow: hidden; }
+
+/* -- Home Slider -- */
+/* line 49, centag-alpha-default-normal.scss */
+.slider-content-wrap { width: 960px; }
+
+/* -- One Col for iPad and Mobile - Two Col for desktop -- */
+/* line 55, centag-alpha-default-normal.scss */
+.view-mode-careers .group-left, .view-mode-careers .group-right, .view-mode-our_story .group-left, .view-mode-our_story .group-right, .view-mode-products_and_services .group-left, .view-mode-products_and_services .group-right, .node-locations.view-mode-full .group-left, .node-locations.view-mode-full .group-right { margin-top: 30px; width: 45%; }
+
+/* -- Products and Services -- */
+/* line 66, centag-alpha-default-normal.scss */
+.services-landing .views-row { margin: 0px 12px 30px; width: 46%; float: left; height: 255px; }
+/* line 72, centag-alpha-default-normal.scss */
+.services-landing .views-row-1, .services-landing .views-row-3, .services-landing .views-row-5, .services-landing .views-row-7 { margin: 0px 12px 30px; }
+
+/* -- Locations 2 col iPad and Mobile - 3 col Desktop -- */
+/* line 80, centag-alpha-default-normal.scss */
+.locations .views-row, .locations .views-row-even, .locations .views-row-odd { width: 28%; margin-right: 7%; padding: 0; border-right: 1px solid #cdcdcd; }
+/* line 86, centag-alpha-default-normal.scss */
+.locations .views-row-3, .locations .views-row-6, .locations .views-row-9 { margin-right: 0; }
+
+/* -- Forms -- */
+/* line 95, centag-alpha-default-normal.scss */
+.webform-client-form input { width: 500px; }
+
+/* ----------- TYPOGRAPHY -------------- */
+/* -- Nav -- */
+/* line 104, centag-alpha-default-normal.scss */
+nav { margin-top: 20px; }
+/* line 107, centag-alpha-default-normal.scss */
+nav ul li, nav ul.inline li { border: none; padding: 0 10px; display: inline; width: auto; margin: 0; }
+/* line 113, centag-alpha-default-normal.scss */
+nav ul li a, nav ul li a.active, nav ul.inline li a, nav ul.inline li a.active { font-family: "PT Sans", sans-serif; font-size: 16px; color: #fff; text-transform: uppercase; font-weight: 700; }
+/* line 121, centag-alpha-default-normal.scss */
+nav ul .last, nav ul.inline .last { background: #B32222 !important; margin: -20px 0; padding: 20px 5px 15px !important; }
+/* line 126, centag-alpha-default-normal.scss */
+nav ul .active, nav ul.inline .active { background: none; }
+
+/* line 131, centag-alpha-default-normal.scss */
+a.menu-link { display: none; }
+
+/* -- Front -- */
+/* line 137, centag-alpha-default-normal.scss */
+.front-services h2, .front-services h2 > a, .front-services span > a { font-size: 24px; }
+/* line 141, centag-alpha-default-normal.scss */
+.front-services h2 a { border-bottom: 1px solid #fff; padding-bottom: 10px; }
+
+/* -- Footer -- */
+/* line 150, centag-alpha-default-normal.scss */
+.footer-block h2 { font-size: 14px; padding-bottom: 30px; height: 30px; line-height: normal; }
+
+/* line 158, centag-alpha-default-normal.scss */
+.footer-block.l h2, .footer-block.c h2, .footer-block.r h2 { padding-left: 85px; display: block; }

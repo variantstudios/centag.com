@@ -1,0 +1,95 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also apply to the normal and widescreen layouts. You may override these styles in the normal  and widescreen CSS files as appropriate. */
+/*-- Colors --*/
+/* -- Mixins -- */
+/* -- This include holds all typography styles to be used on the site -- */
+/* -- Fonts -- */
+/* -- Font Colors -- */
+/* -- Heading Reset -- */
+/* -- Body Text -- */
+/* -- Links -- */
+/* -- Navigation Link -- */
+/*-- Read More --*/
+/* -- Label -- */
+/* -- Sidebar Menu -- */
+/* -- Footer Block -- */
+/* -- MISC -- */
+/* line 9, centag-ie.scss */
+.ie { /* -- Nav -- */ /* -- Footer Section -- */ /* -- Home Slider -- */ /*-- Front Services -- */ /* -- One Col for iPad and Mobile - Two Col for desktop -- */ /* -- Locations 2 col iPad and Mobile - 3 col Desktop -- */ /* -- Products and Services -- */ /* -- Blog Article -- */ /* -- Staff -- */ }
+/* line 10, centag-ie.scss */
+.ie .site-name { margin-top: 0; }
+/* line 13, centag-ie.scss */
+.ie .site-name a { text-indent: 200%; white-space: nowrap; overflow: hidden; background: url("../images/logo.png") no-repeat 0 0; width: 285px; height: 175px; display: block; position: absolute; z-index: 999; top: 30px; }
+/* line 27, centag-ie.scss */
+.ie nav { margin-top: 20px; }
+/* line 30, centag-ie.scss */
+.ie nav ul li, .ie nav ul.inline li { border: none; padding: 0 11px; display: inline; width: auto; margin: 0; }
+/* line 36, centag-ie.scss */
+.ie nav ul li a, .ie nav ul li a.active, .ie nav ul.inline li a, .ie nav ul.inline li a.active { font-family: "PT Sans", sans-serif; font-size: 13px; color: #fff; text-transform: uppercase; font-weight: 700; font-style: normal !important; }
+/* line 45, centag-ie.scss */
+.ie nav ul li.last, .ie nav ul.inline li.last { margin-top: -20px !important; }
+/* line 50, centag-ie.scss */
+.ie a.menu-link { display: none; }
+/* line 55, centag-ie.scss */
+.ie footer { background: #343434; }
+/* line 59, centag-ie.scss */
+.ie .footer-block { float: left; width: 31%; margin: 20px 0; padding: 0 1%; }
+/* line 64, centag-ie.scss */
+.ie .footer-block h2 { font-size: 13px; line-height: 19px; padding-bottom: 30px; height: 30px; }
+/* line 70, centag-ie.scss */
+.ie .footer-block .content { text-align: left; }
+/* line 75, centag-ie.scss */
+.ie .footer-block.l h2, .ie .footer-block.c h2, .ie .footer-block.r h2 { padding-left: 79px; display: block; text-align: left; }
+/* line 82, centag-ie.scss */
+.ie .footer-block.l h2 { background: url("../images/contact.png") no-repeat 0 0; }
+/* line 87, centag-ie.scss */
+.ie .footer-block.c h2 { background: url("../images/job.png") no-repeat 0 0; }
+/* line 92, centag-ie.scss */
+.ie .footer-block.r h2 { background: url("../images/flag.png") no-repeat 0 0; }
+/* line 100, centag-ie.scss */
+.ie .zone-slider { z-index: -1000; position: relative; }
+/* line 104, centag-ie.scss */
+.ie .slider-content-wrap { width: 980px; margin: 0 auto; }
+/* line 109, centag-ie.scss */
+.ie .blockHeadline.rsABlock { top: 215px; background: #fff; font-family: "Bitter", serif; font-weight: 700; color: #28518b; font-size: 28px; padding: 10px 15px; right: 0; left: auto; text-transform: uppercase; }
+/* line 122, centag-ie.scss */
+.ie .blockSubHeadline.rsABlock { top: 270px; background: #fff; font-family: "Bitter", serif; color: #28518b; font-size: 20px; padding: 10px 15px; right: 0; left: auto; font-style: italic; }
+/* line 138, centag-ie.scss */
+.ie .front-services h2, .ie .front-services h2 > a, .ie .front-services span > a { font-size: 20px; padding: 0 0 10px; /*filter: dropshadow(color=#555, offx=1, offy=1);
+filter: glow(color=black,strength=5), alpha(opacity=70);*/ /*filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=45);*/ filter: Shadow(Color=black, Direction=130, Strength=1); }
+/* line 147, centag-ie.scss */
+.ie .front-services .span-wrap { position: absolute; padding: 0 0px 20px; width: 27px; margin: -24px 0 0px; display: block; }
+/* line 154, centag-ie.scss */
+.ie .front-services span { background: url("../images/f-services.png") repeat; padding: 0px 10px 268px 10px; position: relative; margin: 0px 10px 0  -130px; border: 1px solid #fff; display: block; width: 240px; }
+/* line 163, centag-ie.scss */
+.ie .front-services .views-row { float: left; width: 31%; margin: 40px 10px 0; height: auto; overflow: visible; }
+/* line 169, centag-ie.scss */
+.ie .front-services .views-row img { margin-top: -70px; }
+/* line 178, centag-ie.scss */
+.ie .view-mode-careers .group-left, .ie .view-mode-careers .group-right, .ie .view-mode-our_story .group-left, .ie .view-mode-our_story .group-right, .ie .view-mode-products_and_services .group-left, .ie .view-mode-products_and_services .group-right, .ie .node-locations.view-mode-full .group-left, .ie .node-locations.view-mode-full .group-right { margin-top: 30px; width: 45%; }
+/* line 182, centag-ie.scss */
+.ie .view-mode-careers .group-footer, .ie .view-mode-our_story .group-footer, .ie .view-mode-products_and_services .group-footer, .ie .node-locations.view-mode-full .group-footer { width: 100%; }
+/* line 189, centag-ie.scss */
+.ie .locations .views-row { float: left; width: 28%; margin-right: 7%; }
+/* line 194, centag-ie.scss */
+.ie .locations .views-row-3, .ie .locations .views-row-6, .ie .locations .views-row-9 { margin-right: 0; }
+/* line 201, centag-ie.scss */
+.ie .services-landing .views-row { margin: 0px 15px 30px; width: 46%; float: left; }
+/* line 206, centag-ie.scss */
+.ie .services-landing .views-row-1, .ie .services-landing .views-row-3, .ie .services-landing .views-row-5, .ie .services-landing .views-row-7 { margin-left: 0; }
+/* line 213, centag-ie.scss */
+.ie .node-blog-article .blog-thumb { width: 300px; float: left; margin-right: 20px; }
+/* line 218, centag-ie.scss */
+.ie .node-blog-article .blog-read-more-teaser, .ie .node-blog-article .blog-content-teaser { overflow: hidden; }
+/* line 226, centag-ie.scss */
+.ie .location-staff .views-row, .ie .services-sales .views-row, .ie .admin-corporate-staff .views-row { margin: 20px 0; float: left; width: 100%; }
+/* line 232, centag-ie.scss */
+.ie .location-staff .staff img, .ie .services-sales .staff img, .ie .admin-corporate-staff .staff img { float: left; margin-right: 20px; }
+/* line 236, centag-ie.scss */
+.ie .location-staff .staff .staff-details, .ie .services-sales .staff .staff-details, .ie .admin-corporate-staff .staff .staff-details { overflow: hidden; }
+/* line 241, centag-ie.scss */
+.ie .location-name { margin-bottom: 10px; }
+/* line 244, centag-ie.scss */
+.ie .staff-details { float: none; margin: 0; }
+/* line 247, centag-ie.scss */
+.ie .staff-details h3 { padding-left: 15px; border-left: 4px solid #28518b; margin-bottom: 10px; }

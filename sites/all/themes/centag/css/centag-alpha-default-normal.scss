@@ -1,0 +1,163 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+ 
+ /* -- 960 & IE Styles -- */
+ 
+  @import "_inc";
+  @import "_typography";
+
+/* -- Front -- */
+.front-services {
+  .span-wrap {
+    position: absolute;
+    padding: 0 0px 60px;
+    width: 287px;
+    margin: -26px 0 0px;
+    display: block;
+  }
+  span {
+    background-color: rgba(255, 255, 255, .2);
+    padding: 0px 47% 268px;
+    position: relative;
+    margin: 0px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .views-row {
+    float: left;
+    width: 31%;
+    margin: 40px 10px 0;
+    img {
+      margin-top: -70px;
+    }
+  }  
+}
+
+/* -- Blog Article -- */
+.node-blog-article {
+  .blog-thumb {
+    width: 300px;
+    margin-right: 20px;
+  }
+    .blog-read-more-teaser, .blog-content-teaser {
+    overflow: hidden;
+  }
+}
+
+
+  /* -- Home Slider -- */
+  .slider-content-wrap {
+    width: 960px;
+  }
+  
+  /* -- One Col for iPad and Mobile - Two Col for desktop -- */
+  .view-mode-careers, .view-mode-our_story, .view-mode-products_and_services, .node-locations.view-mode-full {
+    .group-left, .group-right {
+      margin-top: 30px;
+      width: 45%;
+    }  
+  }
+  
+  
+  
+ /* -- Products and Services -- */
+  
+  .services-landing {
+    .views-row {
+      margin: 0px 12px 30px;
+      width: 46%;
+      float: left;
+      height: 255px;
+    }
+    .views-row-1, .views-row-3, .views-row-5, .views-row-7 {
+      margin: 0px 12px 30px;
+    }
+  }
+
+
+  /* -- Locations 2 col iPad and Mobile - 3 col Desktop -- */
+  .locations {
+    .views-row, .views-row-even, .views-row-odd {
+      width: 28%;
+      margin-right: 7%;
+      padding: 0;
+      border-right: 1px solid #cdcdcd;
+    }
+    .views-row-3, .views-row-6, .views-row-9 {
+      margin-right: 0;
+    }
+  }
+  
+    
+  
+  /* -- Forms -- */
+.webform-client-form {
+  input {
+    width: 500px;
+  }
+}
+  
+  
+  
+/* ----------- TYPOGRAPHY -------------- */
+  /* -- Nav -- */
+  nav {
+    margin-top: 20px;
+    ul, ul.inline {
+      li {
+        border: none;
+        padding: 0 10px;
+        display: inline;
+        width: auto;
+        margin: 0;
+        a, a.active {
+          font-family: $body-font;
+          font-size: 16px;
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+      }
+      .last {	      
+		    background: #B32222 !important;
+		    margin: -20px 0;
+		    padding: 20px 5px 15px !important;
+      }
+      .active {
+        background: none;
+      }
+    }
+  }
+  a.menu-link {
+    display: none;
+  }
+  
+  /* -- Front -- */
+  .front-services {
+    h2, h2 > a, span > a {
+      font-size: 24px;
+    }  
+    h2 {
+      a {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  
+  /* -- Footer -- */
+  .footer-block {
+    h2 {
+      font-size: 14px;
+      padding-bottom: 30px;
+      height: 30px;
+      line-height: normal;
+    }  
+  }
+  .footer-block.l, .footer-block.c, .footer-block.r {
+    h2 {
+      padding-left: 85px;
+      display: block;
+    }
+  }
+

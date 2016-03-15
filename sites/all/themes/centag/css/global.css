@@ -1,0 +1,489 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/*-- Colors --*/
+/* -- Mixins -- */
+/* ------ Form Includes -- */
+/* -- Mixins -- */
+/* -- This include holds all typography styles to be used on the site -- */
+/* -- Fonts -- */
+/* -- Font Colors -- */
+/* -- Heading Reset -- */
+/* -- Body Text -- */
+/* -- Links -- */
+/* -- Navigation Link -- */
+/*-- Read More --*/
+/* -- Label -- */
+/* -- Sidebar Menu -- */
+/* -- Footer Block -- */
+/* -- MISC -- */
+/* -- RESET -- */
+/* line 12, global.scss */
+html { padding: 0; margin: 0; font-style: normal !important; -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */ }
+
+/* line 19, global.scss */
+body { padding: 0; margin: 0; font-style: normal !important; }
+
+/* -- TYPOGROPHY -- */
+/* -- Headings --*/
+/* line 29, global.scss */
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; letter-spacing: normal; font-weight: normal; font-style: normal; }
+
+/* line 33, global.scss */
+h1 { font-family: "Bitter", serif; color: #28518b; font-size: 24px; }
+
+/* line 38, global.scss */
+h2 { font-family: "Bitter", serif; color: #28518b; font-size: 24px; }
+
+/* line 43, global.scss */
+h3, h3 > a { font-family: "Bitter", serif; color: #28518b; font-size: 20px; }
+
+/* line 48, global.scss */
+h4, h4 > a { font-family: "Bitter", serif; color: #28518b; font-size: 20px; font-style: italic; }
+
+/* line 54, global.scss */
+h5, h5 > a { font-family: "Bitter", serif; font-size: 15px; font-style: italic; }
+
+/* line 60, global.scss */
+#page-title { margin-bottom: 20px; }
+
+/* -- Body Text -- */
+/* line 67, global.scss */
+div, p, span { font-family: "PT Sans", sans-serif; margin: 0; padding: 0; letter-spacing: normal; font-size: 15px; color: #454545; line-height: 26px; font-weight: normal; font-style: normal; font-style: normal !important; }
+
+/* line 71, global.scss */
+p { margin-bottom: 10px; }
+
+/* -- Links -- */
+/* line 77, global.scss */
+a { font-family: "PT Sans", sans-serif; text-decoration: none; color: #454545; font-size: 15px; }
+
+/* line 80, global.scss */
+.more-link { display: block; text-align: left; font-style: italic; }
+
+/*-- Read More --*/
+/* line 87, global.scss */
+.read-more a { background: #B0AFAD; color: #fff; padding: 4px 19px 1px; margin: 10px 0; display: block; width: 130px; font-size: 13px; text-align: center; text-transform: uppercase; }
+/* line 91, global.scss */
+.read-more a:hover { background: #797979; color: #fff; }
+
+/* -- Lists -- */
+/* line 99, global.scss */
+ul, ol { padding: 0; margin: 0; }
+/* line 101, global.scss */
+ul li, ol li { font-family: "PT Sans", sans-serif; padding: 0; margin: 0; }
+
+/* -- Misc -- */
+/* line 112, global.scss */
+label { font-weight: normal; font-style: italic; }
+
+/* line 116, global.scss */
+h4.label-above { margin-bottom: 10px; margin-top: 15px; }
+
+/*-- Pager --*/
+/* line 124, global.scss */
+.item-list .pager { background: none; border: none; margin-bottom: 20px; }
+/* line 128, global.scss */
+.item-list .pager li { display: inline-block; *display: inline; padding: 4px 14px; margin-bottom: 0; *margin-left: .3em; font-size: 14px; line-height: 20px; *line-height: 20px; color: #333333; text-align: center; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); vertical-align: middle; cursor: pointer; background-color: #f5f5f5; *background-color: #e6e6e6; background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, white, #e6e6e6); background-image: -o-linear-gradient(top, white, #e6e6e6); background-image: linear-gradient(to bottom, #ffffff, #e6e6e6); background-image: -moz-linear-gradient(top, white, #e6e6e6); background-repeat: repeat-x; border: 1px solid #bbbbbb; *border: 0; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); border-color: #e6e6e6 #e6e6e6 #bfbfbf; border-bottom-color: #a2a2a2; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0); filter: progid:dximagetransform.microsoft.gradient(enabled=false); *zoom: 1; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); width: 40px; height: 25px; padding: 8px 0 0; font-size: 13px; margin-right: 5px; border-bottom: 1px solid #ccc; }
+/* line 137, global.scss */
+.item-list .pager li:hover { color: #333333; text-decoration: none; background-color: #e6e6e6; *background-color: #d9d9d9; /* Buttons in IE7 don't get borders, so darken on hover */ background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; }
+/* line 140, global.scss */
+.item-list .pager .pager-next, .item-list .pager .pager-last, .item-list .pager .pager-first { width: auto; position: relative; right: 0; }
+/* line 144, global.scss */
+.item-list .pager .pager-next a, .item-list .pager .pager-last a, .item-list .pager .pager-first a { background: 0; padding: 0 10px; }
+/* line 149, global.scss */
+.item-list .pager .pager-previous { width: 100px; }
+/* line 151, global.scss */
+.item-list .pager .pager-previous a { padding: 0 10px; background: 0; width: 60px; }
+/* line 157, global.scss */
+.item-list .pager a { background: none; padding: 0 10px; font-size: 13px; }
+/* line 162, global.scss */
+.item-list .pager a:hover { color: #333333; background: none; }
+/* line 166, global.scss */
+.item-list .pager .pager-current { color: #333333; text-decoration: none; background-color: #e6e6e6; *background-color: #d9d9d9; /* Buttons in IE7 don't get borders, so darken on hover */ background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; }
+/* line 168, global.scss */
+.item-list .pager .pager-current a:hover { color: #333333; }
+
+/* -- Nav -- */
+/* line 178, global.scss */
+nav { margin-top: 15px; }
+/* line 181, global.scss */
+nav ul li, nav ul.inline li { padding: 9px 8px; border-top: 1px solid rgba(255, 255, 255, 0.2); display: block; float: left; width: 95%; margin: 0; }
+/* line 188, global.scss */
+nav ul li a, nav ul.inline li a { font-family: "PT Sans", sans-serif; font-size: 15px; color: #D5D5D5; text-transform: uppercase; font-weight: 700; }
+/* line 192, global.scss */
+nav ul .last, nav ul.inline .last { border-bottom: none; }
+/* line 196, global.scss */
+nav ul .active, nav ul.inline .active { background: rgba(204, 204, 204, 0.1); }
+/* line 198, global.scss */
+nav ul .active a, nav ul.inline .active a { background: none; color: #fff; }
+
+/* -- Mobile Menu Button -- */
+/* line 207, global.scss */
+a.menu-link { background: url("../images/menu.png") no-repeat; height: 40px; display: block; margin: 10px 0; text-indent: 200%; white-space: nowrap; overflow: hidden; }
+
+/* -- Sidebar Menu -- */
+/* line 217, global.scss */
+.sidebar-menu { margin: 20px 0; }
+/* line 219, global.scss */
+.sidebar-menu h2 { background: #b0afad; color: #fff; font-size: 18px; padding: 8px; }
+/* line 222, global.scss */
+.sidebar-menu .menu { background: #fff; }
+/* line 224, global.scss */
+.sidebar-menu .menu li { list-style-image: none; list-style-type: none; border-bottom: 1px solid #ccc; padding: 8px 5px; margin: 0 5px; }
+/* line 230, global.scss */
+.sidebar-menu .menu li a { text-transform: uppercase; color: #8a8a8a; font-size: 14px; font-family: "Bitter", serif; }
+/* line 233, global.scss */
+.sidebar-menu .menu li a.active { color: #4B4B4B; }
+/* line 237, global.scss */
+.sidebar-menu .menu .last { border-bottom: none; }
+
+/* line 244, global.scss */
+.view-blog.menu .views-row { list-style-image: none; list-style-type: none; border-bottom: 1px solid #ccc; padding: 8px 5px; margin: 0 5px; }
+/* line 250, global.scss */
+.view-blog.menu .views-row a { text-transform: uppercase; color: #8a8a8a; font-size: 14px; font-family: "Bitter", serif; }
+/* line 254, global.scss */
+.view-blog.menu .views-row-last { border-bottom: none; }
+
+/* -- Header - Logo - Nav -- */
+/* line 261, global.scss */
+.site-name { margin-top: 0; }
+/* line 263, global.scss */
+.site-name a { text-indent: 200%; white-space: nowrap; overflow: hidden; background: url("../images/logo.png") no-repeat 0 0; width: 285px; height: 175px; display: block; position: absolute; z-index: 999; top: 30px; margin: 0; }
+
+/* line 277, global.scss */
+.zone-menu-wrapper { background: #18417a; /* Old browsers */ background: -moz-linear-gradient(top, #18417a 0%, #123361 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #18417a), color-stop(100%, #123361)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #18417a 0%, #123361 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #18417a 0%, #123361 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #18417a 0%, #123361 100%); /* IE10+ */ background: linear-gradient(to bottom, #18417a 0%, #123361 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#18417a', endColorstr='#123361',GradientType=0 ); /* IE6-9 */ height: 60px; top: 0; width: 100%; z-index: 999; height: 60px; overflow: hidden; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+
+/* line 291, global.scss */
+.zone-menu-wrapper.active { height: 390px; position: static; }
+
+/* -- Main Content Section -- */
+/* line 300, global.scss */
+.section-content { background: url("../images/bg.png") repeat; padding: 25px 0; }
+
+/* -- Footer Section -- */
+/* line 308, global.scss */
+footer { background: #343434; }
+/* line 310, global.scss */
+footer p { margin: 0; }
+
+/* line 315, global.scss */
+.footer-block { float: left; width: 100%; margin: 15px 0; padding: 0; }
+/* line 320, global.scss */
+.footer-block h2 { color: #fff; font-size: 14px; text-transform: uppercase; border-bottom: 1px solid #454648; padding-bottom: 30px; height: 30px; text-align: center; padding-bottom: 65px; }
+/* line 325, global.scss */
+.footer-block .content { margin: 20px 0; text-align: center; }
+/* line 328, global.scss */
+.footer-block .content p, .footer-block .content a { color: #dfdfdf; }
+
+/* line 335, global.scss */
+.footer-block.l h2, .footer-block.c h2, .footer-block.r h2 { /*padding-left: 85px;*/ display: block; }
+
+/* line 341, global.scss */
+.footer-block.l h2 { background: url("../images/contact.png") no-repeat center; }
+
+/* line 346, global.scss */
+.footer-block.c h2 { background: url("../images/job.png") no-repeat center; }
+
+/* line 351, global.scss */
+.footer-block.r h2 { background: url("../images/flag.png") no-repeat center; }
+
+/* line 356, global.scss */
+.footer-info { width: 100%; border-top: 1px solid #454648; padding: 10px 0 30px; }
+/* line 361, global.scss */
+.footer-info .copyright { float: left; text-align: center; }
+/* line 364, global.scss */
+.footer-info .copyright p { color: #fff; font-size: 12px; }
+/* line 369, global.scss */
+.footer-info .site-by { float: right; text-align: center; color: #fff; font-size: 12px; }
+/* line 374, global.scss */
+.footer-info .site-by p, .footer-info .site-by a { color: #fff; font-size: 12px; }
+
+/* ---- Forms ---- */
+/* line 385, global.scss */
+.webform-client-form input { background: #fff; /* Old browsers */ border: 1px solid #eee; -webkit-border-radius: 4px; border-radius: 4px; padding: 9px 6px; height: auto; width: 100%; }
+/* line 389, global.scss */
+.webform-client-form input:active, .webform-client-form input:focus { box-shadow: #CCC 0 0 7px; -webkit-box-shadow: #CCC 0 0 7px; background: #fff; border: 1px solid #bebebe; }
+/* line 392, global.scss */
+.webform-client-form textarea { background: #fff; /* Old browsers */ border: 1px solid #eee; -webkit-border-radius: 4px; border-radius: 4px; padding: 9px 6px; height: auto; }
+/* line 395, global.scss */
+.webform-client-form textarea:active, .webform-client-form textarea:focus { box-shadow: #CCC 0 0 7px; -webkit-box-shadow: #CCC 0 0 7px; background: #fff; border: 1px solid #bebebe; }
+/* line 398, global.scss */
+.webform-client-form input[type="submit"] { -moz-box-shadow: inset 0px 1px 0px 0px #ffffff; -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff; box-shadow: inset 0px 1px 0px 0px #ffffff; background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf)); background: -moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf'); background-color: #ededed; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; border: 1px solid #dcdcdc; display: inline-block; color: #444; padding: 10px 30px; text-decoration: none; text-shadow: 1px 1px 0px #ffffff; width: auto; }
+/* line 401, global.scss */
+.webform-client-form input[type="submit"]:hover { background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed)); background: -moz-linear-gradient(center top, #dfdfdf 5%, #ededed 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed'); background-color: #dfdfdf; }
+/* line 405, global.scss */
+.webform-client-form input, .webform-client-form textarea, .webform-client-form select, .webform-client-form option { font-family: "PT Sans", sans-serif; font-size: 14px; }
+/* line 410, global.scss */
+.webform-client-form input[type="submit"] { font-family: "PT Sans", sans-serif; font-size: 16px; }
+
+/* line 418, global.scss */
+#webform-client-form-226 .webform-component-number label, #webform-client-form-226 .webform-component-number input { display: inline-block; vertical-align: top; width: auto; margin-right: 1em; }
+/* line 424, global.scss */
+#webform-client-form-226 .webform-component-number input[type="number"] { padding: 10px 15px; }
+/* line 428, global.scss */
+#webform-client-form-226 #webform-component-complete-form { margin-top: 3em; margin-bottom: 2em; }
+/* line 431, global.scss */
+#webform-client-form-226 #webform-component-complete-form p { margin-bottom: 0; }
+/* line 434, global.scss */
+#webform-client-form-226 #webform-component-complete-form .grading-key { font-style: italic !important; }
+
+/* line 441, global.scss */
+input.webform-calendar { width: auto !important; }
+
+/* line 445, global.scss */
+#webform-component-date-available .selector, #webform-component-education--education-high-school--attended-from .selector, #webform-component-education--education-high-school--attended-to .selector, #webform-component-education--college--attended-from .selector, #webform-component-education--college--attended-to .selector, #webform-component-education--other--attended-from .selector, #webform-component-education--other--attended-to .selector, #webform-component-previous-employment--job-1--worked-to .selector, #webform-component-previous-employment--job-1--worked-from .selector, #webform-component-previous-employment--job-2--worked-to .selector, #webform-component-previous-employment--job-2--worked-from .selector, #webform-component-previous-employment--job-3--worked-to .selector, #webform-component-previous-employment--job-3--worked-from .selector { display: inline-block !important; }
+
+/* line 451, global.scss */
+#webform-client-form-111 .webform-component-fieldset { margin: 0; height: auto; }
+/* line 454, global.scss */
+#webform-client-form-111 .webform-component-fieldset legend { /*border-bottom: 1px solid #ccc;*/ border-top: 1px solid #ccc; width: 100%; padding: 15px 0; }
+/* line 461, global.scss */
+#webform-client-form-111 .webform-component-fieldset .webform-component-fieldset legend { padding: 15px; }
+/* line 467, global.scss */
+#webform-client-form-111 .form-type-radio label.option { float: left; padding-right: 10px; }
+
+/* ------------ INDIVIDUAL PAGES ------------ */
+/* -- Front -- */
+/* line 479, global.scss */
+.front-services .views-row { width: auto; margin: 20px auto 0; text-align: center; height: 60px; overflow: hidden; }
+/* line 485, global.scss */
+.front-services .views-row img { margin-top: -55px; }
+/* line 489, global.scss */
+.front-services h2, .front-services h2 > a, .front-services span > a { font-size: 24px; position: relative; text-align: center; font-family: "Bitter", serif; color: #fff; text-shadow: 1px 1px 5px #555; filter: dropshadow(color=#555555, offx=1, offy=1); filter: glow(color=black, strength=5), alpha(opacity=70); /* now both will work */ padding: 20px 0 0; }
+
+/* -- Home Slider -- */
+/* line 498, global.scss */
+#zone-slider, #region-slider { width: 100%; margin: 0 auto; }
+
+/* line 503, global.scss */
+.slider-content-wrap { width: auto; margin: 0 10px; position: relative; }
+
+/* line 509, global.scss */
+.blockHeadline.rsABlock { top: 230px; background: #fff; font-family: "Bitter", serif; font-weight: 700; color: #28518b; font-size: 18px; padding: 10px 15px; left: 0; text-transform: uppercase; }
+
+/* line 521, global.scss */
+.blockSubHeadline.rsABlock { top: 270px; background: #fff; font-family: "Bitter", serif; color: #28518b; font-size: 16px; padding: 10px 15px; left: 0; font-style: italic; }
+
+/* ---------- Locations ------------ */
+/* line 535, global.scss */
+.location-map { margin-bottom: 40px; }
+
+/* line 538, global.scss */
+.locations { /*.views-row-3, .views-row-6, .views-row-9 { margin-right: 0;
+}*/ }
+/* line 539, global.scss */
+.locations .views-row { /*float: left;
+width: 40%;
+margin-right: 9%;
+border-right: 1px solid #cdcdcd;*/ margin-bottom: 40px; }
+/* line 550, global.scss */
+.locations .location-more-info a { background: url("../images/sprite.png") no-repeat -224px -2px; display: block; height: 32px; padding: 4px 0 0 25px; margin: 5px 0; font-style: italic; }
+
+/* line 560, global.scss */
+.openlayers-container-map-centag_individual_location { width: 100% !important; border: 1px solid #ccc; }
+
+/* line 565, global.scss */
+.olLayerGooglePoweredBy { z-index: -999 !important; }
+
+/* -- Full Node -- */
+/* line 573, global.scss */
+.node-locations .group-header { margin-bottom: 20px; }
+/* line 575, global.scss */
+.node-locations .group-header .location-info { margin: 20px 0; }
+/* line 578, global.scss */
+.node-locations .group-header .location-job-posts { margin: 20px 0; }
+/* line 582, global.scss */
+.node-locations .group-left, .node-locations .group-right { margin-top: 30px; width: 45%; }
+/* line 586, global.scss */
+.node-locations .group-footer { margin: 30px 0; float: left; }
+/* line 590, global.scss */
+.node-locations .field-name-field-location-geonumber { clear: both; }
+/* line 593, global.scss */
+.node-locations .location-img { margin: 40px 0 0; }
+
+/* -- Staff -- */
+/* line 603, global.scss */
+.location-staff .views-row, .services-sales .views-row, .admin-corporate-staff .views-row { margin: 20px 0; float: left; width: 100%; }
+/* line 609, global.scss */
+.location-staff .staff .staff-img, .services-sales .staff .staff-img, .admin-corporate-staff .staff .staff-img { text-align: center; }
+/* line 611, global.scss */
+.location-staff .staff .staff-img img, .services-sales .staff .staff-img img, .admin-corporate-staff .staff .staff-img img { margin-right: 20px; }
+/* line 615, global.scss */
+.location-staff .staff .staff-details, .services-sales .staff .staff-details, .admin-corporate-staff .staff .staff-details { overflow: hidden; }
+
+/* line 620, global.scss */
+.location-name { margin-bottom: 10px; }
+
+/* line 623, global.scss */
+.staff-details { float: left; margin: 20px 0 0; }
+/* line 626, global.scss */
+.staff-details h3 { padding-left: 15px; border-left: 4px solid #28518b; margin-bottom: 10px; }
+
+/* ------------ Careers ------------ */
+/* -- Latest Job Posts Block -- */
+/* line 639, global.scss */
+.latest-job-posts .views-row { margin: 0 0 20px 0; padding-bottom: 20px; border-bottom: 1px solid #ccc; }
+/* line 644, global.scss */
+.latest-job-posts .views-row-last { border-bottom: none; margin-bottom: 5px; }
+/* line 648, global.scss */
+.latest-job-posts .job-desc { margin: 10px 0; }
+/* line 651, global.scss */
+.latest-job-posts .job-more { font-weight: 700; font-style: italic; }
+
+/* line 656, global.scss */
+.job-posted { font-style: italic; }
+
+/* line 659, global.scss */
+.staff-contact, .view-all-jobs { font-weight: 700; font-style: italic; }
+
+/* -- All Jobs -- */
+/* line 668, global.scss */
+.job-posts .views-row { margin-bottom: 20px; }
+
+/* line 674, global.scss */
+.job-posts h5, .latest-job-posts h5 { padding: 5px 0 10px; }
+/* line 676, global.scss */
+.job-posts h5 a, .latest-job-posts h5 a { font-family: "Bitter", serif; font-size: 18px; font-style: normal; padding: 0 0 0 13px; border-left: 3px solid #2F5488; }
+/* line 682, global.scss */
+.job-posts .job-post-location .label-inline, .job-posts .job-posted .label-inline, .job-posts .job-app-deadline .label-inline, .latest-job-posts .job-post-location .label-inline, .latest-job-posts .job-posted .label-inline, .latest-job-posts .job-app-deadline .label-inline { display: inline; padding-right: 5px; }
+/* line 686, global.scss */
+.job-posts .job-post-location p, .job-posts .job-posted p, .job-posts .job-app-deadline p, .latest-job-posts .job-post-location p, .latest-job-posts .job-posted p, .latest-job-posts .job-app-deadline p { display: inline; font-style: italic; }
+/* line 691, global.scss */
+.job-posts .job-post-desc, .latest-job-posts .job-post-desc { margin: 10px 0; }
+
+/* -- Full Node -- */
+/* line 698, global.scss */
+.career-img { margin-bottom: 10px; }
+
+/* line 702, global.scss */
+.node-job-post .job-post-desc { margin-bottom: 10px; }
+/* line 705, global.scss */
+.node-job-post .job-post-details { /*float: left;
+width: 50%;*/ margin: 10px 0 0; }
+/* line 709, global.scss */
+.node-job-post .job-post-details a { border-bottom: 1px solid #444; padding-bottom: 3px; }
+/* line 713, global.scss */
+.node-job-post .job-post-details h4 { margin-bottom: 5px; }
+/* line 717, global.scss */
+.node-job-post .job-post-roles { float: left; clear: both; margin: 20px 0; }
+/* line 722, global.scss */
+.node-job-post .job-post-qualifications { float: none; clear: both; margin: 20px 0; }
+
+/* -- Blog Article -- */
+/* line 733, global.scss */
+.view-blog .views-row { margin: 40px 0; }
+
+/* line 738, global.scss */
+.node-blog-article .blog-thumb { /*float: left;*/ margin-bottom: 20px; }
+
+/* line 744, global.scss */
+.article-images { margin-top: 20px; }
+
+/* line 747, global.scss */
+.blog-post-date { padding: 5px 0; }
+
+/* -- Products and Services -- */
+/* line 754, global.scss */
+.services-landing .views-row { margin: 15px 0px; width: 100%; }
+
+/* line 759, global.scss */
+.service-title { padding: 10px 0; }
+/* line 761, global.scss */
+.service-title a { font-family: "Bitter", serif; font-size: 18px; font-style: normal; padding: 0 0 0 13px; border-left: 3px solid #2F5488; }
+
+/* line 766, global.scss */
+.service-sub-title { font-size: 17px; font-style: italic; font-weight: 300; margin: 5px 0 10px; }
+
+/* line 770, global.scss */
+.product-downloads h4 { background: url("../images/download.png") no-repeat; padding-left: 45px; margin: 20px 0 0; color: #b0afad; }
+/* line 776, global.scss */
+.product-downloads .msds { float: left; margin: 5px 0; width: 50%; }
+/* line 781, global.scss */
+.product-downloads .info-download { float: left; margin: 5px 0; }
+
+/* line 786, global.scss */
+.views-field-field-spec-sheets { margin-bottom: 20px; }
+
+/* line 790, global.scss */
+.node-services h4 { margin: 20px 0 0; }
+
+/* -- Product Service -- */
+/* line 796, global.scss */
+.products-label { margin-top: 35px !important; }
+
+/* line 799, global.scss */
+.fluid-gro-logo { /*float: right;*/ width: 25%; padding-left: 20px; padding-bottom: 10px; }
+
+/* line 806, global.scss */
+.ui-accordion { margin: 20px 0 0; }
+/* line 808, global.scss */
+.ui-accordion .ui-state-default, .ui-accordion .ui-widget-content .ui-state-default, .ui-accordion .ui-widget-header .ui-state-default, .ui-accordion .ui-state-active, .ui-accordion .ui-widget-content { background: #fff; background-image: none; border: 1px solid #D5D5D5; }
+/* line 814, global.scss */
+.ui-accordion .ui-accordion-header a { font-family: "Bitter", sans-serif; }
+/* line 818, global.scss */
+.ui-accordion .ui-accordion-header img { max-width: 160px; margin: 5px 0; }
+
+/* -- Static Pages -- */
+/* line 829, global.scss */
+.static-page-second-body h4, .static-page-body h4 { padding-bottom: 15px; }
+
+/* line 835, global.scss */
+.static-page-second-body h4 { margin-top: 20px; }
+
+/* line 841, global.scss */
+.static-second-body a { font-weight: 700; font-style: italic; display: block; margin-top: 5px; }
+
+/* -- Our Story -- */
+/* line 853, global.scss */
+.view-mode-our_story .group-left h4, .view-mode-our_story .group-right h4, .view-mode-careers .group-left h4, .view-mode-careers .group-right h4 { padding-bottom: 15px; }
+
+/* line 860, global.scss */
+.view-mode-our_story h2 { margin: 0 0 10px; }
+/* line 863, global.scss */
+.view-mode-our_story h4 { margin: 20px 0 10px; }
+/* line 867, global.scss */
+.view-mode-our_story .field-name-field-static-page-images .field-item { float: left; margin: 5px; width: 30%; }
+
+/* line 876, global.scss */
+.view-mode-careers h2 { margin-bottom: 10px; }
+
+/* -- 1 col for mobile -- */
+/* line 884, global.scss */
+.view-mode-our_story .group-header h2, .view-mode-careers .group-header h2, .view-mode-products_and_services .group-header h2, .node-locations.view-mode-full .group-header h2 { padding-bottom: 15px; }
+/* line 888, global.scss */
+.view-mode-our_story .group-left, .view-mode-our_story .group-right, .view-mode-careers .group-left, .view-mode-careers .group-right, .view-mode-products_and_services .group-left, .view-mode-products_and_services .group-right, .node-locations.view-mode-full .group-left, .node-locations.view-mode-full .group-right { margin-top: 30px; width: 100%; }
+
+/* line 895, global.scss */
+.industry-logos { clear: both; }
+/* line 897, global.scss */
+.industry-logos span { width: 32%; text-align: center; float: left; }
+
+/* line 905, global.scss */
+.industry-logos-side span { text-align: center; margin-bottom: 20px; display: block; }
+
+/* Employee Testimonial */
+/* line 915, global.scss */
+div.view-employee-testimonials .views-row { margin-bottom: 35px; clear: both; min-height: 120px; }
+/* line 921, global.scss */
+div.view-employee-testimonials .views-row .employee-testimonials { overflow: hidden; }
+/* line 925, global.scss */
+div.view-employee-testimonials .views-row span.employee-photo { float: left; margin: 0 10px 10px 0; }
+/* line 929, global.scss */
+div.view-employee-testimonials .views-row .employee-name-title span { font-weight: bold; color: #8a8a8a; }
+
+/* line 938, global.scss */
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+/* line 946, global.scss */
+.clearfix { display: inline-block; }
+
+/* start commented backslash hack \*/
+/* line 948, global.scss */
+* html .clearfix { height: 1%; }
+
+/* line 949, global.scss */
+.clearfix { display: block; }
+
+/* close commented backslash hack */
+/* line 953, global.scss */
+.email-link { color: #28518B; text-decoration: underline; font-weight: 700; }

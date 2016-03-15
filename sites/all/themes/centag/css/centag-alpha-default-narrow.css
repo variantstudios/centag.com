@@ -1,0 +1,132 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also apply to the normal and widescreen layouts. You may override these styles in the normal  and widescreen CSS files as appropriate. */
+/*-- Colors --*/
+/* -- Mixins -- */
+/* ------ Form Includes -- */
+/* -- Mixins -- */
+/* -- This include holds all typography styles to be used on the site -- */
+/* -- Fonts -- */
+/* -- Font Colors -- */
+/* -- Heading Reset -- */
+/* -- Body Text -- */
+/* -- Links -- */
+/* -- Navigation Link -- */
+/*-- Read More --*/
+/* -- Label -- */
+/* -- Sidebar Menu -- */
+/* -- Footer Block -- */
+/* -- MISC -- */
+/* -- Sidebar Menus -- */
+/* line 12, centag-alpha-default-narrow.scss */
+.sidebar-menu { margin-top: 0px; }
+
+/* -- Footer Section -- */
+/* line 18, centag-alpha-default-narrow.scss */
+footer { background: #343434; height: 300px; }
+
+/* line 22, centag-alpha-default-narrow.scss */
+.footer-block { float: left; width: 31%; margin: 20px 0; padding: 0 1%; }
+/* line 27, centag-alpha-default-narrow.scss */
+.footer-block h2 { font-size: 12px; line-height: 19px; padding-bottom: 30px; height: 30px; }
+/* line 33, centag-alpha-default-narrow.scss */
+.footer-block .content { text-align: left; }
+
+/* line 38, centag-alpha-default-narrow.scss */
+.footer-block.l h2, .footer-block.c h2, .footer-block.r h2 { padding-left: 79px; display: block; text-align: left; }
+
+/* line 45, centag-alpha-default-narrow.scss */
+.footer-block.l h2 { background: url("../images/contact.png") no-repeat 0 0; padding-top: 15px; padding-bottom: 15px; }
+
+/* line 52, centag-alpha-default-narrow.scss */
+.footer-block.c h2 { background: url("../images/job.png") no-repeat 0 0; padding-top: 15px; padding-bottom: 15px; }
+
+/* line 59, centag-alpha-default-narrow.scss */
+.footer-block.r h2 { background: url("../images/flag.png") no-repeat 0 0; padding-top: 5px; padding-bottom: 25px; }
+
+/* line 66, centag-alpha-default-narrow.scss */
+.footer-info { float: left; width: 100%; border-top: 1px solid #454648; padding: 10px 0 0; }
+/* line 71, centag-alpha-default-narrow.scss */
+.footer-info .copyright { float: left; }
+/* line 73, centag-alpha-default-narrow.scss */
+.footer-info .copyright p { color: #fff; font-size: 12px; }
+/* line 78, centag-alpha-default-narrow.scss */
+.footer-info .site-by { float: right; color: #fff; font-size: 12px; }
+/* line 82, centag-alpha-default-narrow.scss */
+.footer-info .site-by p, .footer-info .site-by a { color: #fff; font-size: 12px; }
+
+/* -- Home Slider -- */
+/* line 90, centag-alpha-default-narrow.scss */
+.slider-content-wrap { width: 720px; margin: 0 auto; }
+
+/* -- Front -- */
+/* line 98, centag-alpha-default-narrow.scss */
+.home-calls { margin: 20px 0 5px; }
+
+/* line 103, centag-alpha-default-narrow.scss */
+.front-services h2, .front-services h2 > a, .front-services span > a { font-size: 20px; padding: 0 0 10px; }
+/* line 107, centag-alpha-default-narrow.scss */
+.front-services .span-wrap { position: absolute; padding: 0 0px 60px; width: 209px; margin: -26px 0 0px; display: block; border-bottom: 0; }
+/* line 115, centag-alpha-default-narrow.scss */
+.front-services span { background-color: rgba(255, 255, 255, 0.2); padding: 0px 47% 191px; position: relative; margin: 0px 6px; border: 1px solid rgba(255, 255, 255, 0.5); }
+/* line 122, centag-alpha-default-narrow.scss */
+.front-services .views-row { width: 30%; float: left; margin: 30px 10px 0; height: auto; overflow: visible; }
+/* line 128, centag-alpha-default-narrow.scss */
+.front-services .views-row img { margin-top: -67px; }
+
+/* line 135, centag-alpha-default-narrow.scss */
+.blockHeadline.rsABlock { top: 215px; background: #fff; font-family: "Bitter", serif; font-weight: 700; color: #28518b; font-size: 28px; padding: 10px 15px; right: 0; left: auto; text-transform: uppercase; }
+
+/* line 148, centag-alpha-default-narrow.scss */
+.blockSubHeadline.rsABlock { top: 270px; background: #fff; font-family: "Bitter", serif; color: #28518b; font-size: 20px; padding: 10px 15px; right: 0; left: auto; font-style: italic; }
+
+/* -- Blog Article -- */
+/* line 164, centag-alpha-default-narrow.scss */
+.node-blog-article .blog-thumb { width: 100%; float: left; margin-bottom: 15px; }
+
+/* -- Products and Services -- */
+/* line 173, centag-alpha-default-narrow.scss */
+.services-landing { float: left; margin-bottom: 20px; }
+/* line 176, centag-alpha-default-narrow.scss */
+.services-landing .views-row { margin: 0px 0 30px; width: 100%; float: left; }
+/* line 181, centag-alpha-default-narrow.scss */
+.services-landing .views-row-1, .services-landing .views-row-3, .services-landing .views-row-5, .services-landing .views-row-7 { margin-left: 0; }
+
+/* line 186, centag-alpha-default-narrow.scss */
+.proprietary-blends { margin-bottom: 40px; }
+
+/* -- Locations -- */
+/* line 194, centag-alpha-default-narrow.scss */
+.locations .views-row-odd { float: left; width: 30%; margin: 0; padding: 0 10%; border-right: 1px solid #cdcdcd; margin-bottom: 20px; }
+/* line 202, centag-alpha-default-narrow.scss */
+.locations .views-row-even { float: left; width: 30%; margin-right: 0; padding-left: 15%; border-right: none; margin-bottom: 20px; }
+/* line 211, centag-alpha-default-narrow.scss */
+.locations .location-more-info a { background: url("../images/sprite.png") no-repeat -224px -2px; display: block; height: 32px; padding: 4px 0 0 25px; margin: 5px 0; font-style: italic; }
+
+/* -- Staff -- */
+/* line 226, centag-alpha-default-narrow.scss */
+.location-staff .views-row, .services-sales .views-row, .admin-corporate-staff .views-row { margin: 20px 0; float: left; width: 100%; }
+/* line 232, centag-alpha-default-narrow.scss */
+.location-staff .staff img, .services-sales .staff img, .admin-corporate-staff .staff img { float: left; margin-right: 20px; }
+/* line 236, centag-alpha-default-narrow.scss */
+.location-staff .staff .staff-details, .services-sales .staff .staff-details, .admin-corporate-staff .staff .staff-details { overflow: hidden; }
+
+/* line 241, centag-alpha-default-narrow.scss */
+.location-name { margin-bottom: 10px; }
+
+/* line 244, centag-alpha-default-narrow.scss */
+.staff-details { float: none; margin: 0; }
+/* line 247, centag-alpha-default-narrow.scss */
+.staff-details h3 { padding-left: 15px; border-left: 4px solid #28518b; margin-bottom: 10px; }
+
+/* -- Jobs -- */
+/* line 257, centag-alpha-default-narrow.scss */
+.node-job-post .job-post-details { float: left; width: 50%; margin: 10px 0 0; }
+
+/* -- Forms -- */
+/* line 267, centag-alpha-default-narrow.scss */
+.webform-client-form input { width: 100%; }
+
+/* ------ TYPOGRAPHY STYLES ------ */
+/* -- Front -- */
+/* line 278, centag-alpha-default-narrow.scss */
+.front-services h2 a { border-bottom: 1px solid #fff; padding-bottom: 10px; }
